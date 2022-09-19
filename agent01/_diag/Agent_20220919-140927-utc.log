@@ -1,0 +1,1064 @@
+[2022-09-19 14:09:27Z INFO AgentProcess] Agent package win-x64.
+[2022-09-19 14:09:27Z INFO AgentProcess] Running on Windows (X64).
+[2022-09-19 14:09:27Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.19043.
+[2022-09-19 14:09:27Z INFO AgentProcess] Version: 2.210.1
+[2022-09-19 14:09:27Z INFO AgentProcess] Commit: fae6a0b2b5df0e047d35ac98cf5758bfc5aad44c
+[2022-09-19 14:09:27Z INFO AgentProcess] Culture: en-US
+[2022-09-19 14:09:27Z INFO AgentProcess] UI Culture: en-US
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:27Z INFO AgentProcess] Validating directory permissions for: 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Generation: '1'
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Generation: '3'
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2022-09-19 14:09:27Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2022-09-19 14:09:27Z INFO AgentProcess]  'CDF'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'v2.0.50727'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'v3.0'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'v3.5'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'v4'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'v4.0'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2022-09-19 14:09:27Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2022-09-19 14:09:27Z INFO AgentProcess] Found version: 2.0.50727
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2022-09-19 14:09:27Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2022-09-19 14:09:27Z INFO AgentProcess] Found version: 3.0
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2022-09-19 14:09:27Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2022-09-19 14:09:27Z INFO AgentProcess] Found version: 3.5
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2022-09-19 14:09:27Z INFO AgentProcess]  'Client'
+[2022-09-19 14:09:27Z INFO AgentProcess]  'Full'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.04084'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '528372'
+[2022-09-19 14:09:27Z INFO AgentProcess] Type is System.Int32
+[2022-09-19 14:09:27Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.04084'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '528372'
+[2022-09-19 14:09:27Z INFO AgentProcess] Type is System.Int32
+[2022-09-19 14:09:27Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2022-09-19 14:09:27Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2022-09-19 14:09:27Z INFO AgentProcess] Found 5 versions:
+[2022-09-19 14:09:27Z INFO AgentProcess]  2.0.50727
+[2022-09-19 14:09:27Z INFO AgentProcess]  3.0
+[2022-09-19 14:09:27Z INFO AgentProcess]  3.5
+[2022-09-19 14:09:27Z INFO AgentProcess]  4.7.0
+[2022-09-19 14:09:27Z INFO AgentProcess]  4.7.0
+[2022-09-19 14:09:27Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:27Z INFO HostContext] Setting up value for origin: Configure.Password
+[2022-09-19 14:09:27Z INFO HostContext] Value is empty.
+[2022-09-19 14:09:27Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2022-09-19 14:09:27Z INFO HostContext] Value is empty.
+[2022-09-19 14:09:27Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2022-09-19 14:09:27Z INFO HostContext] Value is empty.
+[2022-09-19 14:09:27Z INFO HostContext] Setting up value for origin: Configure.Token
+[2022-09-19 14:09:27Z INFO HostContext] Value is empty.
+[2022-09-19 14:09:27Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2022-09-19 14:09:27Z INFO HostContext] Value is empty.
+[2022-09-19 14:09:27Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2022-09-19 14:09:27Z INFO AgentProcess] Arguments parsed
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:27Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:27Z INFO HostContext] Well known config file 'Proxy': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.proxy'
+[2022-09-19 14:09:27Z INFO VstsAgentWebProxy] No proxy setting found.
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Certificates': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.certificates'
+[2022-09-19 14:09:28Z INFO AgentCertificateManager] No certificate setting found.
+[2022-09-19 14:09:28Z INFO Agent] ExecuteCommand
+[2022-09-19 14:09:28Z INFO ConfigurationStore] currentAssemblyLocation: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\Agent.Listener.dll
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] binPath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] RootFolder: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Agent': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.agent'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] ConfigFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.agent
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] CredFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Service': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.service'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.service
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Autologon': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.autologon'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] AutoLogonSettingsFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.autologon
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'Options': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.options'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] RuntimeOptionsFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.options
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.setup_info'
+[2022-09-19 14:09:28Z INFO ConfigurationStore] SetupInfoFilePath: C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.setup_info
+[2022-09-19 14:09:28Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v2.210.1             |_|          (commit fae6a0b)
+
+[2022-09-19 14:09:28Z INFO ConfigurationManager] CheckAgentRootDirectorySecure
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 14:09:28Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 14:09:28Z INFO ConfigurationManager] ConfigureAsync
+[2022-09-19 14:09:28Z INFO ConfigurationStore] IsConfigured()
+[2022-09-19 14:09:28Z INFO ConfigurationStore] IsConfigured: False
+[2022-09-19 14:09:28Z INFO ConfigurationManager] Is configured: False
+[2022-09-19 14:09:28Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2022-09-19 14:09:28Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2022-09-19 14:09:28Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2022-09-19 14:09:28Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2022-09-19 14:09:28Z INFO CommandSettings] Flag 'environment': 'False'
+[2022-09-19 14:09:28Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2022-09-19 14:09:28Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2022-09-19 14:09:28Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2022-09-19 14:09:28Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2022-09-19 14:09:28Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2022-09-19 14:09:28Z INFO Terminal] WRITE LINE: 
+[2022-09-19 14:09:28Z INFO Terminal] WRITE LINE: >> Connect:
+[2022-09-19 14:09:28Z INFO Terminal] WRITE LINE: 
+[2022-09-19 14:09:28Z INFO CommandSettings] Arg 'url': ''
+[2022-09-19 14:09:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 14:09:28Z INFO PromptManager] ReadValue
+[2022-09-19 14:09:28Z INFO Terminal] WRITE: Enter server URL > 
+[2022-09-19 14:09:28Z INFO Terminal] READ LINE
+[2022-09-19 14:10:15Z INFO Terminal] Read value: 'https://dev.azure.com/junelsonmurillo/'
+[2022-09-19 14:10:15Z INFO ConfigurationManager] GetCredentialProvider
+[2022-09-19 14:10:15Z INFO CommandSettings] Arg 'auth': ''
+[2022-09-19 14:10:15Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 14:10:15Z INFO PromptManager] ReadValue
+[2022-09-19 14:10:15Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2022-09-19 14:10:15Z INFO Terminal] READ LINE
+[2022-09-19 14:10:16Z INFO Terminal] Read value: ''
+[2022-09-19 14:10:16Z INFO PromptManager] Falling back to the default: 'PAT'
+[2022-09-19 14:10:16Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2022-09-19 14:10:16Z INFO CredentialManager] GetCredentialProvider
+[2022-09-19 14:10:16Z INFO CredentialManager] Creating type PAT
+[2022-09-19 14:10:16Z INFO CredentialManager] Creating credential type: PAT
+[2022-09-19 14:10:16Z INFO PersonalAccessToken] EnsureCredential
+[2022-09-19 14:10:16Z INFO CommandSettings] Arg 'token': ''
+[2022-09-19 14:10:16Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 14:10:16Z INFO PromptManager] ReadValue
+[2022-09-19 14:10:16Z INFO Terminal] WRITE: Enter personal access token > 
+[2022-09-19 14:10:16Z INFO Terminal] READ SECRET
+[2022-09-19 14:10:27Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2022-09-19 14:10:27Z INFO Terminal] Read value: '***'
+[2022-09-19 14:10:27Z INFO PersonalAccessToken] GetVssCredentials
+[2022-09-19 14:10:27Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2022-09-19 14:10:27Z INFO PersonalAccessToken] cred created
+[2022-09-19 14:10:27Z INFO ConfigurationManager] cred retrieved
+[2022-09-19 14:10:27Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 14:10:28Z WARN VisualStudioServices] Authentication failed with status code 401.
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodea1.visualstudio.com/"
+X-TFS-ProcessId: e7c7614d-45c4-44fe-81ac-83104658c3dd
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 185adac5-5fe5-4203-9a3d-2fa540f50226
+X-TFS-Session: 63017087-4535-4384-a0b9-358eade6d0a5
+X-VSS-E2EID: 729c2314-b36f-4741-b837-1cab5ee12a07
+X-VSS-SenderDeploymentId: c84c777c-7195-73c8-1a82-3367a26c86ef
+Request-Context: appId=cid-v1:485ea963-266c-4937-af0c-311e055c3fab
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 638AADB3277A4DB182859C418561B658 Ref B: SIN30EDGE0422 Ref C: 2022-09-19T14:10:29Z
+Date: Mon, 19 Sep 2022 14:10:29 GMT
+
+[2022-09-19 14:10:28Z WARN VisualStudioServices] Basic issued token provider instance 26602077 requires an interactive prompt which is not allowed by the current settings
+[2022-09-19 14:10:28Z ERR  VisualStudioServices] GET request to https://dev.azure.com/junelsonmurillo/_apis/connectionData?connectOptions=1&lastChangeId=230625304&lastChangeId64=230625304 is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-09-19 14:10:28Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 14:10:28Z INFO LocationServer] Unable to connect to https://dev.azure.com/junelsonmurillo/.
+[2022-09-19 14:10:28Z ERR  LocationServer] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection)
+[2022-09-19 14:10:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 14:10:28Z ERR  Terminal] WRITE ERROR (exception):
+[2022-09-19 14:10:28Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection)
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.GetConnectionData(String serverUrl, VssCredentials credentials, ILocationServer locationServer)
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.DetermineDeploymentType(String serverUrl, VssCredentials credentials, ILocationServer locationServer)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+[2022-09-19 14:10:28Z ERR  Terminal] WRITE ERROR: Failed to connect.  Try again or ctrl-c to quit
+[2022-09-19 14:10:28Z INFO CommandSettings] Arg 'url': ''
+[2022-09-19 14:10:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 14:10:28Z INFO PromptManager] ReadValue
+[2022-09-19 14:10:28Z INFO Terminal] WRITE: Enter server URL > 
+[2022-09-19 14:10:28Z INFO Terminal] READ LINE
+[2022-09-19 15:37:56Z INFO Terminal] Read value: 'https://dev.azure.com/DemoOrganization101'
+[2022-09-19 15:37:56Z INFO ConfigurationManager] GetCredentialProvider
+[2022-09-19 15:37:56Z INFO CommandSettings] Arg 'auth': ''
+[2022-09-19 15:37:56Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:37:56Z INFO PromptManager] ReadValue
+[2022-09-19 15:37:56Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2022-09-19 15:37:56Z INFO Terminal] READ LINE
+[2022-09-19 15:37:57Z INFO Terminal] Read value: ''
+[2022-09-19 15:37:57Z INFO PromptManager] Falling back to the default: 'PAT'
+[2022-09-19 15:37:57Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2022-09-19 15:37:57Z INFO CredentialManager] GetCredentialProvider
+[2022-09-19 15:37:57Z INFO CredentialManager] Creating type PAT
+[2022-09-19 15:37:57Z INFO CredentialManager] Creating credential type: PAT
+[2022-09-19 15:37:57Z INFO PersonalAccessToken] EnsureCredential
+[2022-09-19 15:37:57Z INFO CommandSettings] Arg 'token': ''
+[2022-09-19 15:37:57Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:37:57Z INFO PromptManager] ReadValue
+[2022-09-19 15:37:57Z INFO Terminal] WRITE: Enter personal access token > 
+[2022-09-19 15:37:57Z INFO Terminal] READ SECRET
+[2022-09-19 15:38:10Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2022-09-19 15:38:10Z INFO Terminal] Read value: '***'
+[2022-09-19 15:38:10Z INFO PersonalAccessToken] GetVssCredentials
+[2022-09-19 15:38:10Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2022-09-19 15:38:10Z INFO PersonalAccessToken] cred created
+[2022-09-19 15:38:10Z INFO ConfigurationManager] cred retrieved
+[2022-09-19 15:38:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2022-09-19 15:38:11Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:38:11Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:38:12Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:38:12Z INFO ConfigurationManager] Test Connection complete.
+[2022-09-19 15:38:12Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:38:12Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:38:12Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials_rsaparams'
+[2022-09-19 15:38:12Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2022-09-19 15:38:12Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials_rsaparams
+[2022-09-19 15:38:12Z INFO Terminal] WRITE LINE: 
+[2022-09-19 15:38:12Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2022-09-19 15:38:12Z INFO Terminal] WRITE LINE: 
+[2022-09-19 15:38:12Z INFO CommandSettings] Arg 'pool': ''
+[2022-09-19 15:38:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:38:12Z INFO PromptManager] ReadValue
+[2022-09-19 15:38:12Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2022-09-19 15:38:12Z INFO Terminal] READ LINE
+[2022-09-19 15:39:37Z INFO Terminal] Read value: 'DemoAgentPool'
+[2022-09-19 15:39:37Z INFO BuildReleasesAgentConfigProvider] Found pool DemoAgentPool with id 10 and name DemoAgentPool
+[2022-09-19 15:39:37Z INFO CommandSettings] Arg 'agent': ''
+[2022-09-19 15:39:37Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:39:37Z INFO PromptManager] ReadValue
+[2022-09-19 15:39:37Z INFO Terminal] WRITE: Enter agent name (press enter for LAPTOP-AV1M8OGS) > 
+[2022-09-19 15:39:37Z INFO Terminal] READ LINE
+[2022-09-19 15:41:07Z INFO Terminal] Read value: 'DemoAgent01'
+[2022-09-19 15:41:07Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2022-09-19 15:41:07Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2022-09-19 15:41:07Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-09-19 15:41:07Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-09-19 15:41:07Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-09-19 15:41:07Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\Users\junel\AppData\Roaming'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'LAPTOP-AV1M8OGS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\WINDOWS\system32\cmd.exe'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEDRIVE': 'C:'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEPATH': '\Users\junel'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\Users\junel\AppData\Local'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGONSERVER': '\\LAPTOP-AV1M8OGS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '8'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDrive': 'C:\Users\junel\OneDrive'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDriveConsumer': 'C:\Users\junel\OneDrive'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'OnlineServices': 'Online Services'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'Path': 'C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Tools;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Ruby31-x64\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\junel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\junel\.dotnet\tools'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'platformcode': 'KV'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 126 Stepping 5, GenuineIntel'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '6'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '7e05'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PROMPT': '$P$G'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Skipping: 'PSModulePath'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'RegionCode': 'NA'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\WINDOWS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\Users\junel\AppData\Local\Temp'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\Users\junel\AppData\Local\Temp'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'LAPTOP-AV1M8OGS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP-AV1M8OGS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'junel'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\Users\junel'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'VBOX_MSI_INSTALL_PATH': 'C:\Program Files\Oracle\VirtualBox\'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'VERBOSE_ARG': ''SilentlyContinue''
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\WINDOWS'
+[2022-09-19 15:41:07Z INFO EnvironmentCapabilitiesProvider] Adding 'ZES_ENABLE_SYSMAN': '1'
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Generation: '1'
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Generation: '3'
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2022-09-19 15:41:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2022-09-19 15:41:07Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-Capabilities.ps1'"'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2022-09-19 15:41:08Z INFO ProcessInvokerWrapper] Process started with process id 2536, waiting for process exit.
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-AndroidSdkCapabilities.ps1
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'CurrentUser', view 'Default', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-AntCapabilities.ps1
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: 'env:ANT_HOME'
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-ApplicationCapabilities.ps1
+[2022-09-19 15:41:09Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'npm'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'gulp'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'node'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'bower'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'grunt'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'svn'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'cmake'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'docker'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-AzureGuestAgentCapabilities.ps1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-AzurePowerShellCapabilities.ps1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Env:PSModulePath: 'C:\Users\junel\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Az.Accounts' from the module path.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'AzureRM' from the module path.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Azure' from the module path.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-ChefCapabilities.ps1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-DotNetFrameworkCapabilities.ps1
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0]C:\Windows\Microsoft.NET\Framework\v3.0
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0': 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5]C:\Windows\Microsoft.NET\Framework\v3.5
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:11Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.04084'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528372'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.04084'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528372'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0_x64]C:\Windows\Microsoft.NET\Framework64\v3.0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.04084'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528372'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.04084'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '528372'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-JavaCapabilities.ps1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jre1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java_8_x64]C:\Program Files\Java\jre1.8.0_202
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'java_8_x64': 'C:\Program Files\Java\jre1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JRE'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 1 9
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to get last available version for capability:  java_ + <version> + _x64
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 0 9
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to set capability for first found subkey:  1.8.0_202
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JRE'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + _x64
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java]C:\Program Files\Java\jre1.8.0_202
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'java': 'C:\Program Files\Java\jre1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jdk1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_8_x64]C:\Program Files\Java\jdk1.8.0_202
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_8_x64': 'C:\Program Files\Java\jdk1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JDK'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_202'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 1 9
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to get last available version for capability:  jdk_ + <version> + _x64
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 0 9
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to set capability for first found subkey:  1.8.0_202
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JDK'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT:   '18.0.1.1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 18
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: 18 9
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JDK\18.0.1.1', value name 'JavaHome'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jdk-18.0.1.1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_18_x64]C:\Program Files\Java\jdk-18.0.1.1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_18_x64': 'C:\Program Files\Java\jdk-18.0.1.1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk]C:\Program Files\Java\jdk-18.0.1.1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'jdk': 'C:\Program Files\Java\jdk-18.0.1.1'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-MavenCapabilities.ps1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: env:JAVA_HOME
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or empty.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-MSBuildCapabilities.ps1
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0]C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0': 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\WINDOWS\Microsoft.NET\Framework\v3.5\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5]C:\WINDOWS\Microsoft.NET\Framework\v3.5\
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5': 'C:\WINDOWS\Microsoft.NET\Framework\v3.5\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2022-09-19 15:41:12Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0_x64]C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0_x64': 'C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\WINDOWS\Microsoft.NET\Framework64\v3.5\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5_x64]C:\WINDOWS\Microsoft.NET\Framework64\v3.5\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5_x64': 'C:\WINDOWS\Microsoft.NET\Framework64\v3.5\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-PowerShellCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=PowerShell]5.1.19041.1682
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] Adding 'PowerShell': '5.1.19041.1682'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-ScvmmAdminConsoleCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-SqlPackageCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '110'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '150'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'MSOLEDBSQL'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\150', value name 'VerSpecificRootDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Microsoft SQL Server\150\'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing leaf: 'C:\Program Files (x86)\Microsoft SQL Server\150\Dac\bin\SqlPackage.exe'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Does not exist.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\110', value name 'VerSpecificRootDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '110'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'MSODBCSQL17'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'MSOLEDBSQL'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'RefCount'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'SQLNCLI11'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server\110', value name 'VerSpecificRootDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '12.0'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '7.1'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '8.0'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\8.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\7.1', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-VisualStudioCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\15.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\16.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\17.0', value name 'ShellFolder'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-WindowsKitCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Windows Kits\Installed Roots', value name ''
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-WindowsSdkCapabilities.ps1
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows'
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:13Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\Add-XamarinAndroidCapabilities.ps1
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Novell\Mono for Android', value name 'InstalledVersion'
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest -format json
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2022-09-19 15:41:14Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2022-09-19 15:41:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-19 15:41:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-19 15:41:14Z INFO ProcessInvokerWrapper] Exited process 2536 with exit code 0
+[2022-09-19 15:41:14Z INFO ProcessInvokerWrapper] Finished process 2536 with exit code 0, and elapsed time 00:00:06.0884520.
+[2022-09-19 15:41:14Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:14Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'DemoAgent01'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Windows_NT'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMajorVersionNumber': '10'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMinorVersionNumber': '0'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentBuildNumber': '19043'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '10.0.19043'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Cmd': 'C:\WINDOWS\system32\cmd.exe'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.210.1'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'LAPTOP-AV1M8OGS'
+[2022-09-19 15:41:14Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:14Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:14Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2022-09-19 15:41:15Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2022-09-19 15:41:15Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/DemoOrganization101/'.
+[2022-09-19 15:41:15Z INFO ConfigurationStore] Saving OAuth credential @ C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials
+[2022-09-19 15:41:15Z INFO ConfigurationStore] Credentials Saved.
+[2022-09-19 15:41:15Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2022-09-19 15:41:15Z INFO ConfigurationStore] HasCredentials()
+[2022-09-19 15:41:15Z INFO ConfigurationStore] stored True
+[2022-09-19 15:41:15Z INFO CredentialManager] GetCredentialProvider
+[2022-09-19 15:41:15Z INFO CredentialManager] Creating type OAuth
+[2022-09-19 15:41:15Z INFO CredentialManager] Creating credential type: OAuth
+[2022-09-19 15:41:15Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials_rsaparams
+[2022-09-19 15:41:15Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2022-09-19 15:41:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:41:16Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodea1.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 72d21e31-5080-4b42-80ee-50bd57175a77
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 5c5951c8-b21f-4be2-b4e8-b36af8d628a7
+X-TFS-Session: 63017087-4535-4384-a0b9-358eade6d0a5
+X-VSS-E2EID: 7f22f654-239f-4d5b-9bd2-6b2724a519c6
+X-VSS-SenderDeploymentId: c84c777c-7195-73c8-1a82-3367a26c86ef
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodea1.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/DemoOrganization101/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/DemoOrganization101/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodea2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FDemoOrganization101%2F_apis%2FconnectionData%3FconnectOptions%3D1%26lastChangeId%3D-1%26lastChangeId64%3D-1&redirect=1&hid=6489cb24-5325-4008-b875-f679eca8e098&context=eyJodCI6MiwiaGlkIjoiZmRiODRkY2MtOTYzMy00YTZkLWE4NmItNjdjOTg5MGIyOTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:485ea963-266c-4937-af0c-311e055c3fab
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: DFD2DAA64DB7408AAE3881E9B1B478F7 Ref B: SIN30EDGE0422 Ref C: 2022-09-19T15:41:17Z
+Date: Mon, 19 Sep 2022 15:41:17 GMT
+
+[2022-09-19 15:41:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials_rsaparams
+[2022-09-19 15:41:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.credentials_rsaparams
+[2022-09-19 15:41:16Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-09-19 15:41:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:41:17Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-09-19 15:41:17Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:41:17Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-09-19 15:41:17Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-09-19 15:41:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:41:17Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-09-19 15:41:17Z INFO CommandSettings] Arg 'work': ''
+[2022-09-19 15:41:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:41:17Z INFO PromptManager] ReadValue
+[2022-09-19 15:41:17Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2022-09-19 15:41:17Z INFO Terminal] READ LINE
+[2022-09-19 15:41:32Z INFO Terminal] Read value: ''
+[2022-09-19 15:41:32Z INFO PromptManager] Falling back to the default: '_work'
+[2022-09-19 15:41:32Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2022-09-19 15:41:32Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2022-09-19 15:41:32Z INFO ConfigurationStore] Saving agent settings.
+[2022-09-19 15:41:32Z INFO ConfigurationStore] Settings Saved.
+[2022-09-19 15:41:32Z INFO Terminal] WRITE LINE: 2022-09-19 15:41:32Z: Settings Saved.
+[2022-09-19 15:41:32Z INFO CommandSettings] Flag 'gituseschannel': 'False'
+[2022-09-19 15:41:32Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2022-09-19 15:41:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:41:32Z INFO PromptManager] ReadValue
+[2022-09-19 15:41:32Z INFO Terminal] WRITE: Enter run agent as service? (Y/N) (press enter for N) > 
+[2022-09-19 15:41:32Z INFO Terminal] READ LINE
+[2022-09-19 15:41:36Z INFO Terminal] Read value: 'Y'
+[2022-09-19 15:41:36Z INFO ConfigurationManager] Configuring to run the agent as service
+[2022-09-19 15:41:36Z INFO CommandSettings] Flag 'enableservicesidtypeunrestricted': 'False'
+[2022-09-19 15:41:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:41:36Z INFO PromptManager] ReadValue
+[2022-09-19 15:41:36Z INFO Terminal] WRITE: Enter enable SERVICE_SID_TYPE_UNRESTRICTED for agent service (Y/N) (press enter for N) > 
+[2022-09-19 15:41:36Z INFO Terminal] READ LINE
+[2022-09-19 15:41:56Z INFO Terminal] Read value: 'y'
+[2022-09-19 15:41:56Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2022-09-19 15:41:56Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2022-09-19 15:41:56Z INFO CommandSettings] Flag 'environment': 'False'
+[2022-09-19 15:41:56Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2022-09-19 15:41:56Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:41:56Z INFO PromptManager] ReadValue
+[2022-09-19 15:41:56Z INFO Terminal] WRITE: Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) > 
+[2022-09-19 15:41:56Z INFO Terminal] READ LINE
+[2022-09-19 15:41:57Z INFO Terminal] Read value: ''
+[2022-09-19 15:41:57Z INFO PromptManager] Falling back to the default: 'NT AUTHORITY\NETWORK SERVICE'
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] LogonAccount after transforming: NT AUTHORITY\NETWORK SERVICE, user: NETWORK SERVICE, domain: NT AUTHORITY
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] Service name 'vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01' display name 'Azure Pipelines Agent (DemoOrganization101.DemoAgentPool.DemoAgent01)' will be used for service configuration.
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] Account: NT AUTHORITY\NETWORK SERVICE already has Logon As Service Privilege.
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:57Z INFO ConfigurationStore] Read setting file: 188 chars
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Work': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\_work'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Calculated unique group name VSTS_AgentService_G1cd05
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Trying to create group VSTS_AgentService_G1cd05
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Local Group 'VSTS_AgentService_G1cd05' created
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Trying to add userName NT AUTHORITY\NETWORK SERVICE to the group VSTS_AgentService_G1cd05
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Account 'NT AUTHORITY\NETWORK SERVICE' is added to local group 'VSTS_AgentService_G1cd05'.
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\_work
+[2022-09-19 15:41:57Z INFO NativeWindowsServiceHelper] Local group 'VSTS_AgentService_G1cd05' already has full control to path 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\_work'.
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Granting file permissions to 'NT AUTHORITY\NETWORK SERVICE'.
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] Starting process:
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   File name: '"C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin\AgentService.exe"'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] Process started with process id 9260, waiting for process exit.
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] Exited process 9260 with exit code 0
+[2022-09-19 15:41:57Z INFO ProcessInvokerWrapper] Finished process 9260 with exit code 0, and elapsed time 00:00:00.1158149.
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 successfully installed
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 successfully set recovery option
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 successfully set to delayed auto start
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 successfully set SID type
+[2022-09-19 15:41:57Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 successfully configured
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Root': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01'
+[2022-09-19 15:41:57Z INFO HostContext] Well known config file 'Service': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\.service'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO HostContext] Well known directory 'Bin': 'C:\Dev Ops Credentials\SJC Project\AzureDevOps\Demo\agent01\bin'
+[2022-09-19 15:41:57Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2022-09-19 15:41:57Z INFO CommandSettings] Flag 'preventservicestart': 'False'
+[2022-09-19 15:41:57Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-09-19 15:41:57Z INFO PromptManager] ReadValue
+[2022-09-19 15:41:57Z INFO Terminal] WRITE: Enter whether to prevent service starting immediately after configuration is finished? (Y/N) (press enter for N) > 
+[2022-09-19 15:41:57Z INFO Terminal] READ LINE
+[2022-09-19 15:41:59Z INFO Terminal] Read value: ''
+[2022-09-19 15:41:59Z INFO PromptManager] Falling back to the default: 'N'
+[2022-09-19 15:41:59Z INFO Terminal] WRITE LINE: Service vstsagent.DemoOrganization101.DemoAgentPool.DemoAgent01 started successfully

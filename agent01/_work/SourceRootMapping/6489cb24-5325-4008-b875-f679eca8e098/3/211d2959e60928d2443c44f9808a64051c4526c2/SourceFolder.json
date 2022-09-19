@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1\\a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/DemoOrganization101/",
+  "definitionName": "DemoProject- Pipeline",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "__designer_repo",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/MasterBranch2022/DemoRepo",
+      "sourcesDirectory": "1\\s\\DemoRepo"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "09/19/2022 23:50:10 +08:00",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1\\s",
+  "common_testresultsdirectory": "1\\TestResults",
+  "collectionId": "6489cb24-5325-4008-b875-f679eca8e098",
+  "definitionId": "3",
+  "hashKey": "211d2959e60928d2443c44f9808a64051c4526c2",
+  "repositoryUrl": "https://github.com/MasterBranch2022/DemoRepo",
+  "system": "build"
+}
