@@ -1,8 +1,0 @@
-﻿{
-  "agentId": 9,
-  "agentName": "DemoAgent01",
-  "poolId": 10,
-  "poolName": "DemoAgentPool",
-  "serverUrl": "https://dev.azure.com/DemoOrganization101/",
-  "workFolder": "_work"
-}
